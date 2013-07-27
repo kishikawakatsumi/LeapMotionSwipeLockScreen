@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140E26A117A44CBE00A709DE /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 140E269D17A44CBE00A709DE /* Arrow.png */; };
+		140E26A217A44CBE00A709DE /* Arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 140E269E17A44CBE00A709DE /* Arrow@2x.png */; };
+		140E26A317A44CBE00A709DE /* Slider.png in Resources */ = {isa = PBXBuildFile; fileRef = 140E269F17A44CBE00A709DE /* Slider.png */; };
+		140E26A417A44CBE00A709DE /* Slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 140E26A017A44CBE00A709DE /* Slider@2x.png */; };
+		140E26A517A4538200A709DE /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 149F97EE17A40BE40036C6AF /* libLeap.dylib */; };
+		149F97D217A407F70036C6AF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149F97D117A407F70036C6AF /* Cocoa.framework */; };
+		149F97DC17A407F70036C6AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 149F97DA17A407F70036C6AF /* InfoPlist.strings */; };
+		149F97DE17A407F70036C6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 149F97DD17A407F70036C6AF /* main.m */; };
+		149F97E217A407F70036C6AF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 149F97E017A407F70036C6AF /* Credits.rtf */; };
+		149F97E517A407F70036C6AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 149F97E417A407F70036C6AF /* AppDelegate.m */; };
+		149F97E817A407F70036C6AF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149F97E617A407F70036C6AF /* MainMenu.xib */; };
+		149F97F417A40BF40036C6AF /* LeapObjectiveC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 149F97F317A40BF40036C6AF /* LeapObjectiveC.mm */; };
+		149F97F817A40F7D0036C6AF /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 149F97EE17A40BE40036C6AF /* libLeap.dylib */; };
+		149F980017A41C830036C6AF /* Linen.png in Resources */ = {isa = PBXBuildFile; fileRef = 149F97FE17A41C830036C6AF /* Linen.png */; };
+		149F980117A41C830036C6AF /* Linen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 149F97FF17A41C830036C6AF /* Linen@2x.png */; };
+		14E585FC17A42D6E00D4FB6A /* LockWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E585FB17A42D6D00D4FB6A /* LockWindow.m */; };
+		14E5860017A4382A00D4FB6A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E585FF17A4382A00D4FB6A /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		149F97F717A40F700036C6AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				140E26A517A4538200A709DE /* libLeap.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		140E269D17A44CBE00A709DE /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
+		140E269E17A44CBE00A709DE /* Arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow@2x.png"; sourceTree = "<group>"; };
+		140E269F17A44CBE00A709DE /* Slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slider.png; sourceTree = "<group>"; };
+		140E26A017A44CBE00A709DE /* Slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slider@2x.png"; sourceTree = "<group>"; };
+		149F97CE17A407F70036C6AF /* LockScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		149F97D117A407F70036C6AF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		149F97D417A407F70036C6AF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		149F97D517A407F70036C6AF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		149F97D617A407F70036C6AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		149F97D917A407F70036C6AF /* LockScreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LockScreen-Info.plist"; sourceTree = "<group>"; };
+		149F97DB17A407F70036C6AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		149F97DD17A407F70036C6AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		149F97DF17A407F70036C6AF /* LockScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LockScreen-Prefix.pch"; sourceTree = "<group>"; };
+		149F97E117A407F70036C6AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		149F97E317A407F70036C6AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		149F97E417A407F70036C6AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		149F97E717A407F70036C6AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		149F97EE17A40BE40036C6AF /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = Vendor/LeapMotion/lib/libLeap.dylib; sourceTree = "<group>"; };
+		149F97F017A40BF40036C6AF /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Leap.h; path = Vendor/LeapMotion/include/Leap.h; sourceTree = SOURCE_ROOT; };
+		149F97F117A40BF40036C6AF /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeapMath.h; path = Vendor/LeapMotion/include/LeapMath.h; sourceTree = SOURCE_ROOT; };
+		149F97F217A40BF40036C6AF /* LeapObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeapObjectiveC.h; path = Vendor/LeapMotion/include/LeapObjectiveC.h; sourceTree = SOURCE_ROOT; };
+		149F97F317A40BF40036C6AF /* LeapObjectiveC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = LeapObjectiveC.mm; path = Vendor/LeapMotion/include/LeapObjectiveC.mm; sourceTree = SOURCE_ROOT; };
+		149F97FE17A41C830036C6AF /* Linen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Linen.png; sourceTree = "<group>"; };
+		149F97FF17A41C830036C6AF /* Linen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Linen@2x.png"; sourceTree = "<group>"; };
+		14E585FA17A42D6D00D4FB6A /* LockWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockWindow.h; sourceTree = "<group>"; };
+		14E585FB17A42D6D00D4FB6A /* LockWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockWindow.m; sourceTree = "<group>"; };
+		14E585FF17A4382A00D4FB6A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		149F97CB17A407F70036C6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149F97D217A407F70036C6AF /* Cocoa.framework in Frameworks */,
+				14E5860017A4382A00D4FB6A /* QuartzCore.framework in Frameworks */,
+				149F97F817A40F7D0036C6AF /* libLeap.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140E26A617A453A400A709DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				149F97FE17A41C830036C6AF /* Linen.png */,
+				149F97FF17A41C830036C6AF /* Linen@2x.png */,
+				140E269D17A44CBE00A709DE /* Arrow.png */,
+				140E269E17A44CBE00A709DE /* Arrow@2x.png */,
+				140E269F17A44CBE00A709DE /* Slider.png */,
+				140E26A017A44CBE00A709DE /* Slider@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		149F97C517A407F70036C6AF = {
+			isa = PBXGroup;
+			children = (
+				149F97D717A407F70036C6AF /* LockScreen */,
+				149F97D017A407F70036C6AF /* Frameworks */,
+				149F97CF17A407F70036C6AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		149F97CF17A407F70036C6AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				149F97CE17A407F70036C6AF /* LockScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		149F97D017A407F70036C6AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				149F97D117A407F70036C6AF /* Cocoa.framework */,
+				14E585FF17A4382A00D4FB6A /* QuartzCore.framework */,
+				149F97EE17A40BE40036C6AF /* libLeap.dylib */,
+				149F97D317A407F70036C6AF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		149F97D317A407F70036C6AF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				149F97D417A407F70036C6AF /* AppKit.framework */,
+				149F97D517A407F70036C6AF /* CoreData.framework */,
+				149F97D617A407F70036C6AF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		149F97D717A407F70036C6AF /* LockScreen */ = {
+			isa = PBXGroup;
+			children = (
+				149F97E317A407F70036C6AF /* AppDelegate.h */,
+				149F97E417A407F70036C6AF /* AppDelegate.m */,
+				14E585FA17A42D6D00D4FB6A /* LockWindow.h */,
+				14E585FB17A42D6D00D4FB6A /* LockWindow.m */,
+				149F97E617A407F70036C6AF /* MainMenu.xib */,
+				140E26A617A453A400A709DE /* Resources */,
+				149F97F517A40BF90036C6AF /* Vendor */,
+				149F97D817A407F70036C6AF /* Supporting Files */,
+			);
+			path = LockScreen;
+			sourceTree = "<group>";
+		};
+		149F97D817A407F70036C6AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				149F97D917A407F70036C6AF /* LockScreen-Info.plist */,
+				149F97DA17A407F70036C6AF /* InfoPlist.strings */,
+				149F97DD17A407F70036C6AF /* main.m */,
+				149F97DF17A407F70036C6AF /* LockScreen-Prefix.pch */,
+				149F97E017A407F70036C6AF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		149F97F517A40BF90036C6AF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				149F97F617A40C010036C6AF /* LeapMotion */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		149F97F617A40C010036C6AF /* LeapMotion */ = {
+			isa = PBXGroup;
+			children = (
+				149F97F017A40BF40036C6AF /* Leap.h */,
+				149F97F117A40BF40036C6AF /* LeapMath.h */,
+				149F97F217A40BF40036C6AF /* LeapObjectiveC.h */,
+				149F97F317A40BF40036C6AF /* LeapObjectiveC.mm */,
+			);
+			name = LeapMotion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		149F97CD17A407F70036C6AF /* LockScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149F97EB17A407F70036C6AF /* Build configuration list for PBXNativeTarget "LockScreen" */;
+			buildPhases = (
+				149F97CA17A407F70036C6AF /* Sources */,
+				149F97CB17A407F70036C6AF /* Frameworks */,
+				149F97CC17A407F70036C6AF /* Resources */,
+				149F97F717A40F700036C6AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockScreen;
+			productName = LockScreen;
+			productReference = 149F97CE17A407F70036C6AF /* LockScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		149F97C617A407F70036C6AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "kishikawa katsumi";
+			};
+			buildConfigurationList = 149F97C917A407F70036C6AF /* Build configuration list for PBXProject "LockScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 149F97C517A407F70036C6AF;
+			productRefGroup = 149F97CF17A407F70036C6AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				149F97CD17A407F70036C6AF /* LockScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		149F97CC17A407F70036C6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149F97DC17A407F70036C6AF /* InfoPlist.strings in Resources */,
+				149F97E217A407F70036C6AF /* Credits.rtf in Resources */,
+				149F97E817A407F70036C6AF /* MainMenu.xib in Resources */,
+				149F980017A41C830036C6AF /* Linen.png in Resources */,
+				149F980117A41C830036C6AF /* Linen@2x.png in Resources */,
+				140E26A117A44CBE00A709DE /* Arrow.png in Resources */,
+				140E26A217A44CBE00A709DE /* Arrow@2x.png in Resources */,
+				140E26A317A44CBE00A709DE /* Slider.png in Resources */,
+				140E26A417A44CBE00A709DE /* Slider@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		149F97CA17A407F70036C6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149F97DE17A407F70036C6AF /* main.m in Sources */,
+				149F97E517A407F70036C6AF /* AppDelegate.m in Sources */,
+				149F97F417A40BF40036C6AF /* LeapObjectiveC.mm in Sources */,
+				14E585FC17A42D6E00D4FB6A /* LockWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		149F97DA17A407F70036C6AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				149F97DB17A407F70036C6AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		149F97E017A407F70036C6AF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				149F97E117A407F70036C6AF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		149F97E617A407F70036C6AF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				149F97E717A407F70036C6AF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		149F97E917A407F70036C6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		149F97EA17A407F70036C6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		149F97EC17A407F70036C6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LockScreen/LockScreen-Prefix.pch";
+				INFOPLIST_FILE = "LockScreen/LockScreen-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor/LeapMotion/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		149F97ED17A407F70036C6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LockScreen/LockScreen-Prefix.pch";
+				INFOPLIST_FILE = "LockScreen/LockScreen-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor/LeapMotion/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		149F97C917A407F70036C6AF /* Build configuration list for PBXProject "LockScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149F97E917A407F70036C6AF /* Debug */,
+				149F97EA17A407F70036C6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		149F97EB17A407F70036C6AF /* Build configuration list for PBXNativeTarget "LockScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149F97EC17A407F70036C6AF /* Debug */,
+				149F97ED17A407F70036C6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 149F97C617A407F70036C6AF /* Project object */;
+}
